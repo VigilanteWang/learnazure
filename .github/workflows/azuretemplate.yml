@@ -3,7 +3,7 @@ name: Deploy Azure Template
 on:
   push:
     branches:
-      - master
+      - main
 env:
   AZURE_SUBSCRIPTION_ID: 087685a9-512f-4b14-8729-2d5c300d6475  # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: azuretemplate-rg   # set this to your target resource group
