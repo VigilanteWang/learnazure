@@ -26,4 +26,6 @@ jobs:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
+          deploymentName: azuredeploy-${{github.sha}}
           template: ${{ github.workspace }}/azuredeploy.json
+
