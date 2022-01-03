@@ -32,7 +32,7 @@
             "name": "[parameters('VnetName')]",
             "location": "[resourceGroup().location]",
             "tags": {
-                "CostCenter": "[parameters('CostCenterIO')]", 
+                "CostCenter": "[parameters('CostCenterIO')]",
                 "Owner": "[parameters('OwnerName')]"
             },
             "properties": {
